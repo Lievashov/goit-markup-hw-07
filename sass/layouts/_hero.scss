@@ -2,22 +2,18 @@
 	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
-	background-color: #2f303a;
+	background-color: $bakground-color-hero;
 }
 
 .fon {
 	max-width: 1600px;
     margin-left: auto;
 	margin-right: auto;
-	background-color: #C4C4C4;;
+	background-color: $bakground-color-fon;
 	background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/hero.png);
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.page-title {
-    width: 696px;
 }
 
 .page-title {
@@ -31,5 +27,6 @@
 	margin-bottom: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	color: #ffffff;
+	color: $wight-color;
+	width: 696px;
 }
