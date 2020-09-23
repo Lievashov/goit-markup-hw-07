@@ -4,8 +4,8 @@
 	line-height: 1.25em;
 	display: flex;
 	letter-spacing: 0.06em;
-	color: #ffffff;
-	background: #2196F3;
+	color: $wight-color;
+	background: $accent;
 	border: 1px solid transparent;
     border-radius: 4px;
 	padding: 10px 32px;
@@ -19,8 +19,8 @@
 	min-width: 200px;
 	border: 0px;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	background-color:  #2196F3;
-	color: #ffffff;
+	background-color: $accent;
+	color: $wight-color;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -29,29 +29,27 @@
 }
 
 .button-icon {
-	fill: white;
+	fill: $wight-color;
 	vertical-align: middle;
 	margin-left: 10px;
 }
   
 .footer-right button {
 	margin-left: 12px;
-}
-  
-.footer-right button:hover {
-	cursor: pointer;
-}
-  
- 
 
+	&:hover {
+		cursor: pointer;
+	}
+}
+  
 .btn-portfolio {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.08em;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
-	background: #f5f4fa;
+	color: $title-text-color;
+	background: $bakground-color-btn;
 	border-radius: 4px;
 	border: 0px;
 	padding: 6px 22px;
@@ -62,15 +60,15 @@
 		margin-right: 0px;
 	}
 	
-	.btn-portfolio:hover,
-	.btn-portfolio:focus {
+	&:hover,
+	&:focus {
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 1.08em;
 		text-align: center;
 		letter-spacing: 0.03em;
-		color: #ffffff;
-		background: #2196f3;
+		color: $wight-color;
+		background: $accent;
 		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 		border-radius: 4px;
 	}
