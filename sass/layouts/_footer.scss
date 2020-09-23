@@ -1,5 +1,5 @@
 .footer {
-	background-color: #2f303a;
+	background-color: $bakground-color-hero;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -16,7 +16,7 @@
 	font-size: 26px;
 	line-height: 1.29em;
 	letter-spacing: 0.03em;
-	color: #ffffff;
+	color: $wight-color;
 	margin: 0px 0px 20px 0px;
 }
 
@@ -33,7 +33,7 @@
 .icon-footer {
 	display: block;
 	padding: 12px;
-	color: #FFFFFF;
+	color: $wight-color;
 	background-color: rgba(255, 255, 255, 0.1);
 	width: 44px;
 	height: 44px;
@@ -43,22 +43,15 @@
 
 .icon-footer:hover,
 .icon-footer:focus {
-	background-color: #2196F3;
+	background-color: $accent;
 }
 
 p.tatle-item {
 	text-align: start;
 }
 
-footer-right {
+.footer-right {
 	display: inline-flex;
-}
-
-footer-right {
-	display: inline-flex;
-}
-
-  .footer-right {
 	padding-left: 93px;
 }
 
@@ -89,6 +82,6 @@ footer-right {
 	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: $wight-color;
 	background: rgba(47, 48, 58, 0.8);
 }
